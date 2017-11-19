@@ -1,0 +1,38 @@
+{
+  "name": "pac-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oyyd/pac-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oyyd/pac-server/issues"
+  },
+  "homepage": "https://github.com/oyyd/pac-server#readme",
+  "dependencies": {
+    "uglify-js": "^3.1.9"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
+  "babel": {
+    "presets": [
+      [
+        "env",
+        {
+          "target": {
+            "node": "current"
+          }
+        }
+      ]
+    ]
+  }
+}
